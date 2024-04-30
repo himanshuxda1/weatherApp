@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+    background: #222;
+}
+
+.mainContainer{
+    background: linear-gradient(to right, #3cc5d7, #47d794);
+    width: 500px;
+    border-radius: 10px;
+
+}
+.box{
+	margin: 0px auto;
+    display: flex;
+    padding: 30px 0px;
+}
+.btn.searchButton {
+	background: white;
+    margin-left: 20px;
+}
+
+.form-control.searchArea {
+	width: 250px;
+	margin-left: 50px;
+}
+#clear {
+	margin: 0px 135px 15px;
+	height: 180px;
+	width: 180px;
+}
+#degrees {
+	color: aliceblue;
+	margin: -18px 174px;
+	font-size: 65px;
+}
+
+#cityName {
+	color: aliceblue;
+	margin: 20px 0px;
+}
+.box2{
+	text-align: center;
+	display: none;
+}
+#humidityPercentage{
+    color: aliceblue;
+}
+#humidityText{
+    color: aliceblue;
+}
+#windSpeed{
+    color: aliceblue;
+}
+#windSpeedText{
+    color: aliceblue;
+}
+.box3 {
+	justify-content: space-evenly;
+	padding: 40px 0px;
+	display: none;
+}
+#imgWind {
+	height: 40px;
+	margin-top: 10px;
+}
+#imgHumidity {
+	height: 40px;
+	margin-top: 10px;
+}
+.rightText {
+	margin-left: 20px;
+}
+.leftText {
+	margin-left: 20px;
+}
+
